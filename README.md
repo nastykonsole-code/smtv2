@@ -20,6 +20,8 @@ The project is currently in **beta**, so some bugs may occur. The full release i
 4. **Enhance channel input placeholder**  
    Make the placeholder more interactive and helpful for users.
 
+5. **Reamake the stats container design**
+   Remake the design of stats container. 
 ---
 
 *Edited: March 14, 2026*

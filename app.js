@@ -12,7 +12,6 @@ trackChannel.addEventListener('click', async function() {
     const channelResponse = await fetch(url);
     const channelData = await channelResponse.json();
 
-    
     if (!channelData.items || channelData.items.length === 0) {
         console.log("Channel not found");
         return;
@@ -23,7 +22,6 @@ trackChannel.addEventListener('click', async function() {
     const snippet = channelInfo.snippet;
     const channelLogoUrl = snippet.thumbnails.high.url;
 
-    clicked = false;
     // --- Create containers ---
     result.classList.add('result');
     const leftSide = document.createElement('div');
