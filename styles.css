@@ -12,26 +12,6 @@ body {
 }
 
 
-
-
-
-@media screen and (max-width: 768px) {
-
-    #channelInput {
-        width:100px;
-    }
-
-
-
-
-
-}
-
-
-
-
-
-
 /* Header */
 #header {
     position: fixed;
@@ -50,6 +30,7 @@ body {
 }
 
 #name, #qAndA {
+    padding: 5%;
     width: 20%;
     display: flex;
     align-items: center;
@@ -59,9 +40,38 @@ body {
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    
 }
 
 #channelInput {
     width: 400px;
+    background-color: #393939;
+    color: #000000;
+    border: none;
+    padding-left: 10px;
+    border-radius: 15px;
+    height: 25px;
+}
+
+
+#searchChannel {
+    background-color: #393939;
+    color: #000000;
+    border: none;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#searchChannel:hover {
+    background-color: #393939d8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    #channelInput {
+        width:250px;
+    }
 }
