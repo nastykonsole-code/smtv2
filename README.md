@@ -8,7 +8,7 @@ The project is currently in **beta**, so some bugs may occur. The full release i
 
 # To-Do
 
-1. **Build the JS part**
+1. **Build the JS part**<br>
     Make the app workable.
    
 2. **Limit Track button clicks**  
